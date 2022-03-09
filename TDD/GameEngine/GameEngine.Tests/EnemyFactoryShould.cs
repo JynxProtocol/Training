@@ -4,9 +4,12 @@ using Xunit;
 namespace GameEngine.Tests
 {
     //Asserts Against Objects
+    [Trait("Category", "Enemy")]
     public class EnemyFactoryShould
     {
+      
         [Fact]
+        
         public void CreateNormalEnemyByDefault()
         {
             EnemyFactory sut = new EnemyFactory();
@@ -17,7 +20,7 @@ namespace GameEngine.Tests
 
         }
 
-        [Fact]
+        [Fact(Skip = "Don't need to run this")]
         public void CreateNormalEnemyByDefault_NotTypeExample()
         {
             EnemyFactory sut = new EnemyFactory();

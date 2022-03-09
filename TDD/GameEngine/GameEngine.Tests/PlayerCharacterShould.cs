@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace GameEngine.Tests
@@ -211,6 +212,29 @@ namespace GameEngine.Tests
 
         }
 
+
+        //Asserting Events are Rasied
+
+
+        [Fact]
+        public void RasieSleptEvent()
+        {
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.Raises<EventArgs>(
+                handler => sut.PlayerSlept += handler,
+                handler => sut.PlayerSlept -= handler,
+                () => sut.Sleep());
+        }
+
+
+        [Fact]
+        public void RaisePropertychangeEvent()
+        {
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.PropertyChanged(sut, "Health", () => sut.TakeDamage(10));
+        }
 
 
     }

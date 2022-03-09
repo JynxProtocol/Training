@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZn59CQB4oAghEPf9oMjSSTNMwm26FRIBg+N+W0xZJ/I8V466pTpXVaGiJK4mIJ2cygXXPgYvYWP47z07OO85g==",
+  "dgSpecHash": "Nr7K7OvGevhIgr5eiHp2EBn4yfUtx/1brlgiir6fW28HiyfEgcvq3Pzv8PnDHD493ZoohYiPtk22KqNBDM8pvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine\\GameEngine.csproj",
+  "projectFilePath": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine\\GameEngine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

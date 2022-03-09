@@ -5995,11 +5995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
       "projectName": "GameEngine.Tests",
-      "projectPath": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
+      "projectPath": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
       "packagesPath": "C:\\Users\\darren.pratt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine.Tests\\obj\\",
+      "outputPath": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6020,8 +6020,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine\\GameEngine.csproj": {
-              "projectPath": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine\\GameEngine.csproj"
+            "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine\\GameEngine.csproj": {
+              "projectPath": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine\\GameEngine.csproj"
             }
           }
         }

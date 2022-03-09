@@ -4,6 +4,8 @@ namespace GameEngine.Tests
 {
     public class PlayerCharacterShould
     {
+        //Asserting String Values
+
         [Fact]
         public void BeInexperiencedWhenNew()
         {
@@ -64,7 +66,7 @@ namespace GameEngine.Tests
             sut.FirstName = "SARAH";
             sut.LastName = "SMITH";
 
-            Assert.Equal("Sarah Smith", sut.FullName,ignoreCase: true);
+            Assert.Equal("Sarah Smith", sut.FullName, ignoreCase: true);
 
 
         }
@@ -110,6 +112,7 @@ namespace GameEngine.Tests
         }
 
 
+        //Asserting Numeric Values
         [Fact]
         public void StartWithDefaultHealth_NotEqualExample()
         {
@@ -133,11 +136,80 @@ namespace GameEngine.Tests
             //Assert.InRange<int>(sut.Health, 101, 200);
             Assert.InRange(sut.Health, 101, 200);
 
+        }
 
+        //Asert Null Values
+
+        [Fact]
+        public void NotHaveNickNameByDefault()
+        {
+
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.Null(sut.Nickname);
+            //Assert.NotNull(sut.Nickname);
+
+        }
+
+        //Asserting with Collections
+
+        [Fact]
+        public void HaveALongbow()
+        {
+
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.Contains("Long Bow", sut.Weapons);
 
 
         }
 
+        [Fact]
+        public void NotHaveAStaffOfWounder()
+        {
+
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.DoesNotContain("Staff Of Wounder", sut.Weapons);
+
+
+        }
+
+        [Fact]
+        public void HaveAtLeastOneKindOfSword()
+        {
+            PlayerCharacter sut = new PlayerCharacter();
+
+            Assert.Contains(sut.Weapons, weapon => weapon.Contains("Sword"));
+        }
+
+
+        [Fact]
+        public void HaveAllExpectedWeapons()
+        {
+            PlayerCharacter sut = new PlayerCharacter();
+
+            var expectedWeapons = new[]
+            {
+                "Long Bow",
+                "Short Bow",
+                "Short Sword"
+            };
+
+            Assert.Equal(expectedWeapons, sut.Weapons);
+        }
+
+
+        [Fact]
+        public void HaveNoEmptyDefaultWeapons()
+        {
+            PlayerCharacter sut = new PlayerCharacter();
+
+
+            //Replace the use of a for loop
+            Assert.All(sut.Weapons, weapon => Assert.False(string.IsNullOrWhiteSpace(weapon)));
+
+        }
 
 
 

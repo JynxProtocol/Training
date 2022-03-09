@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "80sFxMY27aUtF7U9+QpG3UGWcXovDWe0ddDkju7CRcGL2cAJnPnwatDLzVBeb8nrAI1D9wGBSfpuLHtgzhhVTg==",
+  "dgSpecHash": "zOJbPUjFe81jvW+eOyk2SYMJoEzrS6/wnLRr1RyjIGES8dUkX+zdLGoOCUg6jrvPDf2oj7DCfKLmjhyvZVUkeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\darren.pratt\\source\\repos\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
+  "projectFilePath": "C:\\Users\\darren.pratt\\Documents\\Training\\TDD\\GameEngine\\GameEngine.Tests\\GameEngine.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\darren.pratt\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\darren.pratt\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

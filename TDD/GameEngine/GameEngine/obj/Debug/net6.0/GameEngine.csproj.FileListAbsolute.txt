@@ -1,0 +1,12 @@
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.csproj.AssemblyReference.cache
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.AssemblyInfoInputs.cache
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.AssemblyInfo.cs
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.csproj.CoreCompileInputs.cache
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\bin\Debug\net6.0\GameEngine.deps.json
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\bin\Debug\net6.0\GameEngine.dll
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\bin\Debug\net6.0\GameEngine.pdb
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.dll
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\refint\GameEngine.dll
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\GameEngine.pdb
+C:\Users\darren.pratt\source\repos\GameEngine\GameEngine\obj\Debug\net6.0\ref\GameEngine.dll
